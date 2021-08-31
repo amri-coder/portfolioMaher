@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className='footer_right'>
                 <Typography className='footer_copyright'>
-                Developed by <a href="/" target="_blank">Amri Maher</a>
+                Developed by <a href="http://amri-dev.site/" target="_blank">Amri Maher</a>
                 </Typography>
             </div>
         </div>
