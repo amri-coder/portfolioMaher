@@ -11,7 +11,7 @@ const Header = (props) => {
     const pathName = props?.location?.pathname;
     return (
             <Navbar expand="lg" sticky='top' className='header'>
-                <Nav.Link as={NavLink} to="/">
+                <Nav.Link as={NavLink} to="/" className={'p-0 m-0'}>
                     <Navbar.Brand className='header_home'>
                         <HomeRounded />
                     </Navbar.Brand>
@@ -19,7 +19,7 @@ const Header = (props) => {
 
                 <Navbar.Toggle />
                 <Navbar.Collapse>
-                    <Nav>
+                    <Nav className='header_left'>
                         {/*lien resume */}
 
                         <Nav.Link as={NavLink} to="/" className={pathName == "/" ? "header_link_active" : "header_link"}>Resume</Nav.Link>
