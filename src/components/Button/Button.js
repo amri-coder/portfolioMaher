@@ -2,7 +2,7 @@ import React from 'react'
 import {Button} from '@material-ui/core'
 import './Button.css'
 
-const Button = ({text,icon}) => {
+const CustomButton = ({text,icon}) => {
     return (
         <Button className='custom_btn' endIcon={icon ? (<div className='btn_icon_container'>
             {icon}
@@ -10,4 +10,4 @@ const Button = ({text,icon}) => {
     )
 }
 
-export default Button
+export default CustomButton
