@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link, NavLink, withRouter} from 'react-router-dom';
 import { HomeRounded, SchoolRounded, WorkRounded, Facebook,Twitter,LinkedIn, GitHub, Telegram } from '@material-ui/icons';
 import resumeData from '../../utils/resumeData';
+import CustomButton from '../Button/Button';
+import './Header.css';
 
 const Header = (props) => {
     const pathName = props?.location?.pathname;
@@ -30,11 +32,14 @@ const Header = (props) => {
                         {Object.keys(resumeData.socials).map(key =>(
                             <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
                         ))}
+
+                            <CustomButton text={'Engagez moi'} icon={<Telegram />} />
                     </div>
+                    
                 </Navbar.Collapse>
 
             </Navbar>
     );
 };
 
-export default Header;
+export default withRouter(Header);

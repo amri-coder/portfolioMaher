@@ -41,9 +41,7 @@ function Profile() {
                 <CustomTimelineItem title='Email' text={resumeData.email} />
                 <CustomTimelineItem title='Job' text={resumeData.job} />
 
-                {Object.keys(resumeData.socials).map((key)=>(
-                    <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
-                ))}
+               
                 </CustomTimeline>
                 <div className='button_container'>
                     <CustomButton text={'Télécharger Cv'} icon={<GetAppIcon />} />
