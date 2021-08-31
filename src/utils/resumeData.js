@@ -13,7 +13,16 @@ export default {
     job:'Freelance',
 
 socials: {
-    
+    Facebook : {
+        link: "https://www.facebook.com",
+        text:"MonFacebook",
+        icon:<FacebookIcon />,
+    },
+    Twitter : {
+        link: "https://www.twitter.com",
+        text:"MonTwitter",
+        icon:<TwitterIcon />,
+    },
     LinkedIn : {
         link:"https://www.linkedin.com/in/maher-amri-302228187/",
         text: "MonLinkedIn",

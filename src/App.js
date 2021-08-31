@@ -18,11 +18,14 @@ function App() {
           <Profile />
 
         </Grid>
-        <Grid item xs style={{backgroundColor:'red'}}>
+        <Grid item xs>
 
-          <Header />
+         
 
             <Router>
+
+            <Header />
+            
               <Switch>
                 <Route path="/portfolio">
                       <Portfolio />
