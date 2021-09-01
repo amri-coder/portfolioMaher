@@ -1,10 +1,27 @@
 import React from 'react'
+import './Resume.css'
 
 const Resume = () => {
     return (
-        <div>
-            Resume
-        </div>
+        <>
+
+        {/* A propos */}
+        <Grid container className=''>
+
+
+       
+        </Grid>
+
+
+        {/* Education & expériences*/} 
+        <Grid container className=''>
+
+        </Grid>
+
+        <Grid container className=''>
+
+        </Grid>
+        </>
     )
 }
 
