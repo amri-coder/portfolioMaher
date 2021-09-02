@@ -34,7 +34,67 @@ socials: {
         icon: <GitHubIcon />,
     },
 },
-about:"Développeur Web, je me forme depuis plusieurs années dans le développement Web ainsi que dans l'UX Design, Mes champs de connaissances englobent le Front-End avec HTML, CSS, et le Javascript dont les librairies JQuery et ReactJS, mais également le Back-End avec MySQL et le PHP dont le framework Symfony. Je possède les compétences pour mettre en place un site internet Responsive.\n\nJ'ai réalisé plusieurs projets en Front-End et Back-End, notamment de l'intégration web, du responsive ainsi que de l'animation web. ",
+about:"Développeur Web, je me forme depuis plusieurs années dans le développement Web ainsi que dans l'UX Design, Mes champs de connaissances englobent le Front-End avec HTML, CSS, et le Javascript dont les librairies JQuery et ReactJS, mais également le Back-End avec Java,  MySQL et le PHP dont le framework Symfony. Je possède les compétences pour mettre en place un site internet Responsive.\n\nJ'ai réalisé plusieurs projets en Front-End et en Back-End, notamment de l'intégration web, du responsive ainsi que de l'animation web,  je suis à votre disposition pour répondre à tout type de projets de création de sites internet vitrine, e-commerce, de développement spécifique ou d’applications web.  ",
 
+experiences:[
+    {
+        title:'Projet 1',
+        description:'Site portfolio',
+        lien: 'https://amri-coder.github.io/siteWeb/',
+    
+    },
+{
+    title:'Projet 2',
+    description:'Site web - Portfolio',
+    lien: 'http://amri-dev.site/',
+
+},
+{
+    title:'Projet 3',
+    description:'Site Agence',
+    lien: 'http://amri.store/',
+
+},
+{
+    title:'Projet 4',
+    description:'Site E-commerce',
+    lien: 'https://amri-coder.github.io/la-maison-jungle/',
+
+},
+{
+    title:'Projet 5',
+    description:'Site web - E-commerce',
+    lien: 'https://github.com/amri-coder/e-commerce',
+
+},
+
+],
+education: [
+    {
+        title:'Éducation 1',
+        desc:'Développeur web | React',
+        description:'Site E-commerce',
+        stackTechnique: 'REACT-BOOTSTRAP, CSS/HTML, REACT ROUTER, REACT, HOOKS,...,Autres',
+        lien: 'https://amri-coder.github.io/la-maison-jungle/',
+    
+    },
+    {
+        title:'Éducation 2',
+        desc:'Développeur web',
+        description:'Site web - E-commerce',
+        stackTechnique: 'CSS3/HTML5, BOOTSTRAP, JAVASCRIPT, ...,Autres',
+        lien: 'https://github.com/amri-coder/e-commerce',
+    
+    },
+    {
+        title:'Éducation 3',
+        desc:'Développeur web',
+        description:'Site portfolio',
+        stackTechnique: 'CSS3/HTML5, BOOTSTRAP, JAVASCRIPT, ...,Autres',
+        lien: 'https://amri-coder.github.io/siteWeb/',
+    
+    },
+
+],
 
 };
