@@ -34,4 +34,7 @@ socials: {
         icon: <GitHubIcon />,
     },
 },
+about:"Développeur Web, je me forme depuis plusieurs années dans le développement Web ainsi que dans l'UX Design, Mes champs de connaissances englobent le Front-End avec HTML, CSS, et le Javascript dont les librairies JQuery et ReactJS, mais également le Back-End avec MySQL et le PHP dont le framework Symfony. Je possède les compétences pour mettre en place un site internet Responsive.\n\nJ'ai réalisé plusieurs projets en Front-End et Back-End, notamment de l'intégration web, du responsive ainsi que de l'animation web. ",
+
+
 };
