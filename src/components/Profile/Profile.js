@@ -37,7 +37,6 @@ function Profile() {
                 <CustomTimeline icon={<PersonOutlinedOutlinedIcon />} >
                 <CustomTimelineItem title='Nom' text={resumeData.name} />
                 <CustomTimelineItem title='Titre' text={resumeData.title} />
-                <CustomTimelineItem title='Date de naissance' text={resumeData.birthday} />
                 <CustomTimelineItem title='Email' text={resumeData.email} />
                 <CustomTimelineItem title='Job' text={resumeData.job} />
 

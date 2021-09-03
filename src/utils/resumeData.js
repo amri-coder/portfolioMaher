@@ -10,7 +10,7 @@ import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 export default {
     name:'Amri Maher',
     title :'Développeur Web',
-    birthday : '26 Août',
+   
     email: 'amri.maher@yahoo.com',
     job:'Freelance',
     adress:'Rueil Malmaison, 92, IDF, Fr',
