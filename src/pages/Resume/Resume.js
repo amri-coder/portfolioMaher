@@ -17,7 +17,7 @@ const Resume = () => {
         <>
 
         {/* A propos */}
-        <Grid container className='section pb_45'>
+        <Grid container className='section pb_45 pt_45'>
             <Grid item className='section_title mb_30'>
                 <span></span>
                 <h6 className='section_title_text'>À propos de moi</h6>
@@ -114,11 +114,17 @@ const Resume = () => {
         </Grid>
 
         {/* Skills */} 
-        <Grid container spacing={3} justify='space-between' className='section graybg pb_45'>
+        <Grid container className='section graybg pb_45 p_50'>
+        <Grid item className='section_title mb_30'>
+                <span></span>
+                <h6 className='section_title_text'>Skills</h6>
+            </Grid>  
+            <Grid item xs={12}>
+                <Grid container justify='space-between' spacing={3}>
                 {resumeData.skills.map(skill=>(
                     <Grid item xs={12} sm={6} md={3}>
                         <Paper elevation={0} className='skill'>
-                            <Typography variant='h6' className='skills_title'>
+                            <Typography variant='h6' className='skill_title'>
                                 {skill.title}
                             </Typography>
                             {skill.description.map(element=>(
@@ -130,6 +136,10 @@ const Resume = () => {
                         </Paper>
                     </Grid>
                 ))}
+
+                </Grid>
+            </Grid>
+                
         </Grid>
 
         {/* Contact */} 
