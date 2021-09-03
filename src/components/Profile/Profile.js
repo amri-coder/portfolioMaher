@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import imageAmri from '../../assets/images/amri.png';
+import imageAmri from '../../assets/images/Capture.png';
 import CustomTimeline, {CustomTimelineSeparator} from '../Timeline/Timeline';
 import PersonOutlinedOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import TimelineItem from '@material-ui/lab/TimelineItem';
