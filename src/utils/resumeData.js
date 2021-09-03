@@ -75,30 +75,23 @@ experiences:[
 },
 
 ],
-education: [
+educations: [
     {
         title:'Éducation 1',
-        desc:'Développeur web | React',
-        description:'Site E-commerce',
-        stackTechnique: 'REACT-BOOTSTRAP, CSS/HTML, REACT ROUTER, REACT, HOOKS,...,Autres',
-        lien: 'https://amri-coder.github.io/la-maison-jungle/',
-    
+        date:'2021',
+        description: 'Formation en php | Symfony',
+        desc:'Lamanu - Versailles',
     },
     {
         title:'Éducation 2',
-        desc:'Développeur web',
-        description:'Site web - E-commerce',
-        stackTechnique: 'CSS3/HTML5, BOOTSTRAP, JAVASCRIPT, ...,Autres',
-        lien: 'https://github.com/amri-coder/e-commerce',
-    
+        date:'2020',
+        description:'Formation en JavaScript | React',
+        desc:'Simplon - Montreuil',
     },
     {
         title:'Éducation 3',
-        desc:'Développeur web',
-        description:'Site portfolio',
-        stackTechnique: 'CSS3/HTML5, BOOTSTRAP, JAVASCRIPT, ...,Autres',
-        lien: 'https://amri-coder.github.io/siteWeb/',
-    
+        description:'Master informatique',
+        desc:'Ufr Sciences de Gafsa',
     },
 
 ],

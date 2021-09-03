@@ -4,3 +4,23 @@
     line-height: 22px !important;
     white-space: pre-line !important;
 }
+
+/* fin de section A propos */
+
+/* Timeline section */
+.resume_timeline .timeline_content .timeline_title {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.resume_timeline .timeline_content .timeline_description {
+    color: rgb(37, 68, 68) !important;
+    margin-top: 6px !important;
+}
+
+.resume_timeline .timeline_content .timeline_lien {
+    color: gray !important;
+    font-size: small !important;
+   
+}
+/* fin de Timeline section */
