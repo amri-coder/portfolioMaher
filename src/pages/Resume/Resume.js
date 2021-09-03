@@ -49,7 +49,7 @@ const Resume = () => {
                                 <TimelineContent>
                                     <Typography className="timeline_title">{experience.title}</Typography>
                                     <Typography variant="body2"  className="timeline_description">{experience.description}</Typography>
-                                    <Typography variant="caption" className="timeline_lien"><a href={experience.lien}>{experience.lien}</a></Typography>
+                                    <Typography variant="caption" className="timeline_lien" ><a href={experience.lien} target='_blank' style={{textDecoration:'none'}}>{experience.lien}</a></Typography>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}

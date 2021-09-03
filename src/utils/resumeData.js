@@ -67,6 +67,12 @@ experiences:[
     lien: 'https://github.com/amri-coder/e-commerce',
 
 },
+{
+    title:'Projet 6',
+    description:'Site location de voiture',
+    lien: 'https://github.com/amri-coder/rentCar',
+
+},
 
 ],
 education: [
