@@ -144,6 +144,14 @@ const Resume = () => {
 
         {/* Contact */} 
         <Grid container className='section'>
+            {/* formuaire de contact */}
+            <Grid item xs={12} lg={7}>
+
+            </Grid>
+             {/* contact information */}
+             <Grid item xs={12} lg={7}>
+
+</Grid>
 
         </Grid>
         </>
