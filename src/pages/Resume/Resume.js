@@ -89,7 +89,7 @@ const Resume = () => {
 
         {/* Services */} 
         <Grid container className='section'>
-
+                
         </Grid>
 
         {/* Skills */} 

@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
 
 export default {
     name:'Amri Maher',
@@ -94,6 +95,47 @@ educations: [
         desc:'Ufr Sciences de Gafsa',
     },
 
+],
+services : [
+    {
+        title:'Développement Web',
+        description:'Je travaille sur la conception de sites Web depuis plusieurs années.',
+        icon:<WebOutlined />
+    },
+    {
+        title:'Identité De Marque',
+        description:'Je vais vous faire une marque qui accroche et laisse une trace.',
+        icon:<AssignmentOutlined />
+    },
+    {
+        title:'Illustrateur',
+        description:'Je travaille sur la conception d\'illustrations depuis plusieurs années.',
+        icon:<WebOutlined />
+    },
+], 
+
+skills : [
+    {
+        title:"FRONT-END", 
+        description : [
+            "ReactJS",
+            "JavaScript",
+            "Bootstrap",
+            "Material-UI",
+        ],
+    },
+    {
+        title:"BACK-END",
+        description:["Php", "Java", "Symfony"],
+    },
+    {
+        title:"DATABASES",
+        description:["MySQL", "MongoDB", "Firebase"],
+    },
+    {
+        title:"SOURCE CONTROL",
+        description:["Git", "GitHub", "SCRUM/Agile"],
+    },
 ],
 
 };
