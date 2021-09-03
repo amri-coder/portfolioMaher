@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
+import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 
 export default {
     name:'Amri Maher',
@@ -110,7 +111,7 @@ services : [
     {
         title:'Illustrateur',
         description:'Je travaille sur la conception d\'illustrations depuis plusieurs années.',
-        icon:<WebOutlined />
+        icon:<BuildOutlinedIcon />
     },
 ], 
 
