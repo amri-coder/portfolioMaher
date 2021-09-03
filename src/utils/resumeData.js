@@ -13,7 +13,8 @@ export default {
     birthday : '26 Août',
     email: 'amri.maher@yahoo.com',
     job:'Freelance',
-
+    adress:'Rueil Malmaison, 92, IDF, Fr',
+    phone:'06.52.96.02.44',
 socials: {
     Facebook : {
         link: "https://www.facebook.com",
