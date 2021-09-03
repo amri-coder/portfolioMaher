@@ -1,6 +1,7 @@
 import React from 'react'
 import CustomTimeline, {CustomTimelineSeparator} from '../../components/Timeline/Timeline';
-import {Grid, Icon, Paper, Typography} from '@material-ui/core'
+import {Grid, Icon, Paper, TextField, Typography} from '@material-ui/core'
+import CustomButton from '../../components/Button/Button';
 import './Resume.css'
 import resumeData from '../../utils/resumeData'
 import WorkIcon from '@material-ui/icons/Work';
@@ -10,6 +11,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
+
 
 
 const Resume = () => {
@@ -140,7 +142,7 @@ const Resume = () => {
         </Grid>
 
         {/* Contact */} 
-        <Grid container className='section'>
+        <Grid container className='section pt_45 pb_45'>
             {/* formuaire de contact */}
             <Grid item xs={12} lg={7}>
                 <Grid container>
@@ -148,8 +150,25 @@ const Resume = () => {
                         <span></span>
                         <h6 className="section_title_text">Formulaire de contact</h6>
                     </Grid>
+                    <Grid item xs={12}>
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} sm={6}>
+                                    <TextField fullWidth name="nom" label="Nom" />
+                                </Grid>
+                                <Grid item xs={12} sm={6}>
+                                    <TextField fullWidth name="email" label="E-mail" />
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <TextField fullWidth name="message" label="Message" multiline rows={4} />
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <CustomButton text="Envoyer" />
+                                </Grid>
+                            </Grid>
+                    </Grid>
                 </Grid>
             </Grid>
+
              {/* contact information */}
              <Grid item xs={12} lg={5}>
 
