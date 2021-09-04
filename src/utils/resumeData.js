@@ -139,5 +139,15 @@ skills : [
         description:["Git", "GitHub", "SCRUM/Agile"],
     },
 ],
+portfolio: [
+    {
+        tag:'React',
+        image:'../../assets/images/projet1.png',
+        image2:'../../assets/images/projet1_1.png',
+        title:'Projet 1',
+        lien:'https://amri-coder.github.io/siteWeb/',
+        description:'projet de portfolio',
+    }
+]
 
 };
