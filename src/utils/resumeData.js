@@ -6,7 +6,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
 import HttpIcon from '@material-ui/icons/Http';
+import LanguageIcon from '@material-ui/icons/Language';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
+import image1 from '../assets/images/projet1.png';
 
 export default {
     name:'Amri Maher',
@@ -142,16 +144,17 @@ skills : [
 ],
 projects: [
     {
-        tag:'React',
-        image:'../../assets/images/projet1.png',
+        tag:'Autres',
+        image:'1',
         image2:'../../assets/images/projet1_1.png',
-        title:'React Projet 1',
-        caption:'Site web d\'une agence web',
-        description:'Projet de portfolio',
+        title:'Projet 1',
+        caption:'Site web portfolio',
+        description:'SITE WEB PERSONNEL RESPONSIVE',
+        desc: 'Bootstrap, HTML5, CSS3, JavaScript, ...Ect',
         links: [
             {
                 link:'https://amri-coder.github.io/siteWeb/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',
@@ -163,14 +166,14 @@ projects: [
 
     {
         tag:'React',
-        image:'../../assets/images/projet2.png',
+        image:'2',
         title:'React Projet 2',
         caption:'Site web d\'une agence web',
         description:'Projet de site d\'agence',
         links: [
             {
                 link:'http://amri.store/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder',
@@ -181,7 +184,7 @@ projects: [
 
     {
         tag:'React',
-        image:'../../assets/images/projet3.png',
+        image:'3',
         image2:'../../assets/images/projet3_1.png',
         title:'React Projet 3',
         caption:'Site web d\'une agence web',
@@ -189,7 +192,7 @@ projects: [
         links: [
             {
                 link:'http://amri-dev.site/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',
@@ -200,7 +203,7 @@ projects: [
 
     {
         tag:'React',
-        image:'../../assets/images/projet1.png',
+        image:'4',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
         caption:'Site web d\'une agence web',
@@ -208,7 +211,7 @@ projects: [
         links: [
             {
                 link:'https://amri-coder.github.io/siteWeb/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',
@@ -219,7 +222,7 @@ projects: [
 
     {
         tag:'Symfony',
-        image:'../../assets/images/projet1.png',
+        image:'5',
         image2:'../../assets/images/projet1_1.png',
         title:'Symfony Projet 1',
         caption:'Site web d\'une agence web',
@@ -227,7 +230,7 @@ projects: [
         links: [
             {
                 link:'https://amri-coder.github.io/siteWeb/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',
@@ -238,7 +241,7 @@ projects: [
 
     {
         tag:'Bootstrap',
-        image:'../../assets/images/projet1.png',
+        image:'6',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
         caption:'Site web d\'une agence web',
@@ -246,7 +249,7 @@ projects: [
         links: [
             {
                 link:'https://amri-coder.github.io/siteWeb/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',
@@ -257,7 +260,7 @@ projects: [
 
     {
         tag:'React',
-        image:'../../assets/images/projet1.png',
+        image:'7',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
         caption:'Site web d\'une agence web',
@@ -265,7 +268,7 @@ projects: [
         links: [
             {
                 link:'https://amri-coder.github.io/siteWeb/',
-                icon: <HttpIcon />,
+                icon: <LanguageIcon />,
             },
             {
                 link:'https://github.com/amri-coder/siteWeb',

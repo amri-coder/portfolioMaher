@@ -41,14 +41,14 @@
 /* fin cards */
 
 /* Dialog */
-
+/*
 .projectDialog {
  display: flex;
  align-items: center;
  justify-content: center;
  max-width: 800px;
 }
-
+*/
 .projectDialog .projectDialog_image {
 max-height: 300px;
 width: 100%;

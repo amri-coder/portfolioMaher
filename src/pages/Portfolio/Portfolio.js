@@ -2,6 +2,8 @@ import React,{useState} from 'react';
 import './Portfolio.css';
 import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab, Card, CardActions, CardActionArea, CardMedia, CardContent, Grow, Dialog, DialogTitle, DialogContent, DialogActions} from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
+import StarIcon from '@material-ui/icons/Star';
+
 const Portfolio = () => {
     const [tabValue, setTabValue]= useState("Tout");
     const [projectDialog, setProjectDialog]=useState(false);
@@ -38,8 +40,9 @@ const Portfolio = () => {
                                  <Card className='customCard' onClick={()=>setProjectDialog(project)} >
                                      <CardActionArea>
                                          <CardMedia className='customCard_image' image={project.image} title={project.title} />
-                                         <CardContent>
+                                         <CardContent style={{textAlign:'center'}}>
                                              <Typography variant={'body2'} className='customCard_title'>{project.title}</Typography>
+                                             <Typography variant={'body2'} className='customCard_title'><StarIcon style={{color:'var(--main-color)', fontSize:'medium'}} /><StarIcon style={{color:'var(--main-color)', fontSize:'medium'}} /><StarIcon style={{color:'var(--main-color)', fontSize:'medium'}} /><StarIcon style={{color:'var(--main-color)', fontSize:'medium'}} /><StarIcon style={{color:'var(--main-color)', fontSize:'medium'}} /></Typography>
                                              <Typography variant='caption' className='customCard_caption'>{project.caption}</Typography>
                                          </CardContent>
                                      </CardActionArea>
@@ -52,13 +55,14 @@ const Portfolio = () => {
                     ))}
                 </Grid>
             </Grid>
-            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)} className="projectDialog">
+            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)} className="projectDialog" fullWidth>
             <DialogTitle onClose={()=>setProjectDialog(false)}>
                 {projectDialog.title}
             </DialogTitle>
-            <img src="" alt="" className="projectDialog_image" />
+            <img src="../assets/images/projet{projectDialog.image}.png" alt={projectDialog.title} className="projectDialog_image" />
             <DialogContent>
                 <Typography className="projectDialog_description">{projectDialog.description}</Typography>
+                <Typography className="projectDialog_description">{projectDialog.desc}</Typography>
                 
             </DialogContent>
             <DialogActions className="projectDialog_actions">
