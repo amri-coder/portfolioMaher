@@ -6,7 +6,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
 import HttpIcon from '@material-ui/icons/Http';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 
 export default {
@@ -141,7 +140,7 @@ skills : [
         description:["Git", "GitHub", "SCRUM/Agile"],
     },
 ],
-portfolio: [
+projects: [
     {
         tag:'React',
         image:'../../assets/images/projet1.png',
