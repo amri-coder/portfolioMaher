@@ -15,11 +15,11 @@ const Portfolio = () => {
             </Grid>
             {/* Tabs */}
             <Grid item xs={12}>
-                <Tabs value={tabValue} indicatorColor="white" className="custom_tabs" onChange={(event,newValue)=>setTabValue(newValue)}>
+                <Tabs value={tabValue} indicatorColor="white" className="customTabs" onChange={(event,newValue)=>setTabValue(newValue)}>
                 <Tab label="Tout" value="Tout" className={tabValue == "Tout" ? "customTabs_item active" : "customTabs_item"} />
                 
                 {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (
-                    <Tab label={tag} value={tag} className={tabValue == "Tout" ? "customTabs_item active" : "customTabs_item"} />
+                    <Tab label={tag} value={tag} className={tabValue == tag ? "customTabs_item active" : "customTabs_item"} />
                      
                 ))}
                 
