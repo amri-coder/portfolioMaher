@@ -150,11 +150,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/siteWeb/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
@@ -169,11 +169,11 @@ projects: [
         description:'Projet de site d\'agence',
         links: [
             {
-                links:'http://amri.store/',
+                link:'http://amri.store/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder',
+                link:'https://github.com/amri-coder',
                 icon: <GitHubIcon />,
             },
         ]
@@ -188,11 +188,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'http://amri-dev.site/',
+                link:'http://amri-dev.site/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
@@ -207,11 +207,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/siteWeb/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
@@ -226,11 +226,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/siteWeb/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
@@ -245,11 +245,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/siteWeb/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
@@ -264,11 +264,11 @@ projects: [
         description:'Projet de portfolio',
         links: [
             {
-                links:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/siteWeb/',
                 icon: <HttpIcon />,
             },
             {
-                links:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/siteWeb',
                 icon: <GitHubIcon />,
             },
         ]
