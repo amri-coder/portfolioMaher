@@ -217,7 +217,7 @@ projects: [
         tag:'Symfony',
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
-        title:'Projet 1',
+        title:'Symfony Projet 1',
         description:'Projet de portfolio',
         links: [
             {

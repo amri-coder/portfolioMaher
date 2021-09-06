@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Portfolio.css';
-import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab, Card, CardActions, CardActionArea, CardMedia, CardContent} from '@material-ui/core';
+import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab, Card, CardActions, CardActionArea, CardMedia, CardContent, Grow} from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 const Portfolio = () => {
     const [tabValue, setTabValue]= useState("Tout");
@@ -30,15 +30,17 @@ const Portfolio = () => {
                 <Grid container spacing={2}>
                     {resumeData.projects.map(project => (
                         <Grid item>
-                            <Card>
-                                <CardActionArea>
-                                    <CardMedia />
-                                     <CardContent>
-                                         <Typography>{project.title}</Typography>
-                                         <Typography>{project.description}</Typography>
-                                     </CardContent>
-                                </CardActionArea>
-                            </Card>
+                            <Grow in timeout={1000}>
+                                <Card>
+                                    <CardActionArea>
+                                        <CardMedia />
+                                        <CardContent>
+                                            <Typography>{project.title}</Typography>
+                                            <Typography>{project.description}</Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                </Card>
+                            </Grow>
                         </Grid>
                     ))}
                 </Grid>
