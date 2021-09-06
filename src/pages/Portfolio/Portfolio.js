@@ -39,8 +39,8 @@ const Portfolio = () => {
                                      <CardActionArea>
                                          <CardMedia className='customCard_image' image={project.image} title={project.title} />
                                          <CardContent>
-                                             <Typography className='customCard_title'>{project.title}</Typography>
-                                             <Typography variant='body2' className='customCard_description'>{project.description}</Typography>
+                                             <Typography variant={'body2'} className='customCard_title'>{project.title}</Typography>
+                                             <Typography variant='caption' className='customCard_caption'>{project.caption}</Typography>
                                          </CardContent>
                                      </CardActionArea>
                                  </Card>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                     ))}
                 </Grid>
             </Grid>
-            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)}>
+            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)} className="projectDialog">
             <DialogTitle onClose={()=>setProjectDialog(false)}>
                 {projectDialog.title}
             </DialogTitle>

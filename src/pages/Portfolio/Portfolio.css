@@ -34,9 +34,51 @@
     font-weight: bold;
 }
 
+.customCard .customCard_caption{
+    color: gray !important;
+    font-weight: 400;
+}
 /* fin cards */
 
 /* Dialog */
+
+.projectDialog {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ max-width: 800px;
+}
+
+.projectDialog .projectDialog_image {
+max-height: 300px;
+width: 100%;
+object-fit: cover;
+object-position: center center;
+}
+
+.projectDialog .projectDialog_description {
+    margin-top: 10px !important;
+
+}
+
+.projectDialog .projectDialog_actions {
+    justify-content: center !important;
+    margin-bottom: 10px;
+
+}
+
+.projectDialog .projectDialog_icon {
+color: darkslategray;
+margin: 0px 12px;
+cursor: pointer;
+}
+.projectDialog .projectDialog_icon :hover {
+    color: var(--main-color);
+}
+
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+    font-size: 30px !important;
+}
 
 
 
