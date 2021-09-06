@@ -7,9 +7,9 @@ const Portfolio = () => {
     const [projectDialog, setProjectDialog]=useState(false);
     
     return (
-        <Grid container className="section pt_45 pb_45">
+        <Grid container spacing={1} className="section pt_45 pb_45">
             {/* titre */}
-            <Grid item className="section_title mb_30">
+            <Grid item className="section_title mb_20">
                 <span></span>
                 <h6 className="section_title_text">Portfolio</h6>
             </Grid>
@@ -29,11 +29,11 @@ const Portfolio = () => {
         
             {/* Projets */}
             <Grid item xs={12}>
-                <Grid container spacing={2}>
+                <Grid container spacing={3}>
                     {resumeData.projects.map(project => (
                         <>
                         {tabValue == project.tag || tabValue == 'Tout' ? (
-                             <Grid item>
+                             <Grid item xs={12} sm={6} md={4}>
                              <Grow in timeout={1000}>
                                  <Card className='customCard' onClick={()=>setProjectDialog(project)} >
                                      <CardActionArea>

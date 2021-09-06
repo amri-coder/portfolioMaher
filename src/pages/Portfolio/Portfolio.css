@@ -27,11 +27,11 @@
 }
 
 .customCard .customCard_image{
-    
+    height: 140px;
 }
 
 .customCard .customCard_title{
-    
+    font-weight: bold;
 }
 
 /* fin cards */
