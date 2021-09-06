@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Portfolio.css';
-import {Grid, Icon, Paper, Tabs, TextField, Typography} from '@material-ui/core';
+import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab} from '@material-ui/core';
 
 const Portfolio = () => {
     const [tabValue, setTabValue]= useState('Tout');
@@ -14,7 +14,7 @@ const Portfolio = () => {
             {/* Tabs */}
             <Grid item>
                 <Tabs value={tabValue} indicatorColor='white' className='custom_tabs' onChange={(event,newValue)=>setTabValue(newValue)}>
-
+                <Tab label='Tout' value='Tout' className={tabValue == 'Tout' ? 'customTabs_item active' : 'customTabs_item'} />
                 </Tabs>
             </Grid>
 

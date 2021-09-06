@@ -5,6 +5,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
+import HttpIcon from '@material-ui/icons/Http';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 
 export default {
@@ -144,10 +146,127 @@ portfolio: [
         tag:'React',
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
+        title:'React Projet 1',
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'https://amri-coder.github.io/siteWeb/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+
+    {
+        tag:'React',
+        image:'../../assets/images/projet2.png',
+        title:'React Projet 2',
+        description:'Projet de site d\'agence',
+        links: [
+            {
+                links:'http://amri.store/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+    {
+        tag:'React',
+        image:'../../assets/images/projet3.png',
+        image2:'../../assets/images/projet3_1.png',
+        title:'React Projet 3',
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'http://amri-dev.site/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+    {
+        tag:'React',
+        image:'../../assets/images/projet1.png',
+        image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
-        lien:'https://amri-coder.github.io/siteWeb/',
-        description:'projet de portfolio',
-    }
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'https://amri-coder.github.io/siteWeb/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+    {
+        tag:'Symfony',
+        image:'../../assets/images/projet1.png',
+        image2:'../../assets/images/projet1_1.png',
+        title:'Projet 1',
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'https://amri-coder.github.io/siteWeb/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+    {
+        tag:'Bootstrap',
+        image:'../../assets/images/projet1.png',
+        image2:'../../assets/images/projet1_1.png',
+        title:'Projet 1',
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'https://amri-coder.github.io/siteWeb/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
+
+    {
+        tag:'React',
+        image:'../../assets/images/projet1.png',
+        image2:'../../assets/images/projet1_1.png',
+        title:'Projet 1',
+        description:'Projet de portfolio',
+        links: [
+            {
+                links:'https://amri-coder.github.io/siteWeb/',
+                icon: <HttpIcon />,
+            },
+            {
+                links:'https://github.com/amri-coder/siteWeb',
+                icon: <GitHubIcon />,
+            },
+        ]
+    },
 ]
 
 };
