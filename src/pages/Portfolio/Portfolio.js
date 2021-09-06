@@ -1,9 +1,20 @@
 import React,{useState} from 'react';
 import './Portfolio.css';
-import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab, Card, CardActions, CardActionArea, CardMedia, CardContent, Grow} from '@material-ui/core';
+import {Grid, Icon, Paper, Tabs, TextField, Typography, Tab, Card, CardActions, CardActionArea, CardMedia, CardContent, Grow, Dialog, DialogTitle, DialogContent} from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 const Portfolio = () => {
     const [tabValue, setTabValue]= useState("Tout");
+    const ProjectDialog =()=> (
+        <Dialog>
+            <DialogTitle>
+                
+            </DialogTitle>
+            <img src="" alt="" />
+            <DialogContent>
+
+            </DialogContent>
+        </Dialog>
+    )
     return (
         <Grid container className="section pt_45 pb_45">
             {/* titre */}
@@ -38,7 +49,7 @@ const Portfolio = () => {
                                          <CardMedia className='customCard_image' image={project.image} title={project.title} />
                                          <CardContent>
                                              <Typography className='customCard_title'>{project.title}</Typography>
-                                             <Typography className='customCard_description'>{project.description}</Typography>
+                                             <Typography variant='body2' className='customCard_description'>{project.description}</Typography>
                                          </CardContent>
                                      </CardActionArea>
                                  </Card>

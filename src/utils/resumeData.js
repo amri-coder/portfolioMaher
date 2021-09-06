@@ -146,6 +146,7 @@ projects: [
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
         title:'React Projet 1',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
@@ -164,6 +165,7 @@ projects: [
         tag:'React',
         image:'../../assets/images/projet2.png',
         title:'React Projet 2',
+        caption:'Site web d\'une agence web',
         description:'Projet de site d\'agence',
         links: [
             {
@@ -182,6 +184,7 @@ projects: [
         image:'../../assets/images/projet3.png',
         image2:'../../assets/images/projet3_1.png',
         title:'React Projet 3',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
@@ -200,6 +203,7 @@ projects: [
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
@@ -218,6 +222,7 @@ projects: [
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
         title:'Symfony Projet 1',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
@@ -236,6 +241,7 @@ projects: [
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
@@ -254,6 +260,7 @@ projects: [
         image:'../../assets/images/projet1.png',
         image2:'../../assets/images/projet1_1.png',
         title:'Projet 1',
+        caption:'Site web d\'une agence web',
         description:'Projet de portfolio',
         links: [
             {
