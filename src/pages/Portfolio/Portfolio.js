@@ -29,19 +29,24 @@ const Portfolio = () => {
             <Grid item xs={12}>
                 <Grid container spacing={2}>
                     {resumeData.projects.map(project => (
-                        <Grid item>
-                            <Grow in timeout={1000}>
-                                <Card>
-                                    <CardActionArea>
-                                        <CardMedia />
-                                        <CardContent>
-                                            <Typography>{project.title}</Typography>
-                                            <Typography>{project.description}</Typography>
-                                        </CardContent>
-                                    </CardActionArea>
-                                </Card>
-                            </Grow>
-                        </Grid>
+                        <>
+                        {tabValue == project.tag || tabValue == 'Tout' ? (
+                             <Grid item>
+                             <Grow in timeout={1000}>
+                                 <Card>
+                                     <CardActionArea>
+                                         <CardMedia />
+                                         <CardContent>
+                                             <Typography>{project.title}</Typography>
+                                             <Typography>{project.description}</Typography>
+                                         </CardContent>
+                                     </CardActionArea>
+                                 </Card>
+                             </Grow>
+                         </Grid>
+                        ) : null}
+                       
+                        </>
                     ))}
                 </Grid>
             </Grid>
