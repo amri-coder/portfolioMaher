@@ -33,12 +33,12 @@ const Portfolio = () => {
                         {tabValue == project.tag || tabValue == 'Tout' ? (
                              <Grid item>
                              <Grow in timeout={1000}>
-                                 <Card>
+                                 <Card className='customCard' onClick={()=>console.log("hehe")} >
                                      <CardActionArea>
-                                         <CardMedia />
+                                         <CardMedia className='customCard_image' image={project.image} title={project.title} />
                                          <CardContent>
-                                             <Typography>{project.title}</Typography>
-                                             <Typography>{project.description}</Typography>
+                                             <Typography className='customCard_title'>{project.title}</Typography>
+                                             <Typography className='customCard_description'>{project.description}</Typography>
                                          </CardContent>
                                      </CardActionArea>
                                  </Card>
