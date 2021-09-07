@@ -8,7 +8,7 @@ import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
 import HttpIcon from '@material-ui/icons/Http';
 import LanguageIcon from '@material-ui/icons/Language';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
-import image1 from '../assets/images/projet1.png';
+
 
 export default {
     name:'Amri Maher',
