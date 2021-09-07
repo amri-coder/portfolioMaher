@@ -5,7 +5,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
-import HttpIcon from '@material-ui/icons/Http';
 import LanguageIcon from '@material-ui/icons/Language';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 
@@ -170,6 +169,7 @@ projects: [
         title:'React Projet 2',
         caption:'Site web d\'une agence web',
         description:'Projet de site d\'agence',
+        desc:'React-bootstrap, Styled-components, React-router, React, Fortawesome, Material-ui, Autres',
         links: [
             {
                 link:'http://amri.store/',

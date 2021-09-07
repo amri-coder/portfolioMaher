@@ -67,14 +67,15 @@ const Portfolio = () => {
                 
                 </Grid>
             </Grid>
-            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)} className="projectDialog" fullWidth>
+            <Dialog open={projectDialog} onClose={()=>setProjectDialog(false)} className="projectDialog" fullWidth style={{textAlign:'center'}}>
             <DialogTitle onClose={()=>setProjectDialog(false)}>
                 {projectDialog.title}
             </DialogTitle>
             <img src={`/${projectDialog.image}.png`} alt={projectDialog.title} className="projectDialog_image" />
             <DialogContent>
-                <Typography className="projectDialog_description">{projectDialog.description}</Typography>
-                <Typography className="projectDialog_description">{projectDialog.desc}</Typography>
+                <Typography variant='caption' className='customCard_caption'>DESCRIPTION : {projectDialog.description}</Typography>
+                <br />
+                <Typography variant='caption' className='customCard_caption'>STACK TECHNIQUE : {projectDialog.desc}</Typography>
                 
             </DialogContent>
             <DialogActions className="projectDialog_actions">
