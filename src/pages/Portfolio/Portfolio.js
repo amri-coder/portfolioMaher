@@ -71,7 +71,7 @@ const Portfolio = () => {
             <DialogTitle onClose={()=>setProjectDialog(false)}>
                 {projectDialog.title}
             </DialogTitle>
-            <img src={projectDialog.image} alt={projectDialog.title} className="projectDialog_image" />
+            <img src={`/${projectDialog.image}.png`} alt={projectDialog.title} className="projectDialog_image" />
             <DialogContent>
                 <Typography className="projectDialog_description">{projectDialog.description}</Typography>
                 <Typography className="projectDialog_description">{projectDialog.desc}</Typography>
