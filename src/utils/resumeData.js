@@ -166,7 +166,7 @@ projects: [
     {
         tag:'React',
         image:'2',
-        title:'React Projet 2',
+        title:'React Projet 1',
         caption:'Site web d\'une agence web',
         description:'Projet de site d\'agence',
         desc:'React-bootstrap, Styled-components, React-router, React, Fortawesome, Material-ui, Autres',
@@ -186,9 +186,10 @@ projects: [
         tag:'React',
         image:'3',
         image2:'../../assets/images/projet3_1.png',
-        title:'React Projet 3',
-        caption:'Site web d\'une agence web',
+        title:'React Projet 2',
+        caption:'Site web d\'un portfolio',
         description:'Projet de portfolio',
+        desc:'MDBReact, Ui-Neumorphism, React-router, React, Fortawesome, Material-ui,.. Autres,',
         links: [
             {
                 link:'http://amri-dev.site/',
@@ -202,19 +203,16 @@ projects: [
     },
 
     {
-        tag:'React',
+        tag:'Autres',
         image:'4',
-        image2:'../../assets/images/projet1_1.png',
-        title:'Projet 1',
-        caption:'Site web d\'une agence web',
-        description:'Projet de portfolio',
+        title:'Projet 2',
+        caption:'Site web E-commerce',
+        description:'Projet de site web e-commerce',
+        desc:'HTML5/CSS3, Bootstrap, JavaScript, Autres, ',
         links: [
+            
             {
-                link:'https://amri-coder.github.io/siteWeb/',
-                icon: <LanguageIcon />,
-            },
-            {
-                link:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/e-commerce',
                 icon: <GitHubIcon />,
             },
         ]
@@ -223,36 +221,13 @@ projects: [
     {
         tag:'Symfony',
         image:'5',
-        image2:'../../assets/images/projet1_1.png',
         title:'Symfony Projet 1',
-        caption:'Site web d\'une agence web',
-        description:'Projet de portfolio',
+        caption:'Site web de location de voiture',
+        description:'Projet de site web location de voiture',
+        desc: 'Symfony, Php, Html , CSS, Twig, BD, Bootstrap, ..Autres.',
         links: [
             {
-                link:'https://amri-coder.github.io/siteWeb/',
-                icon: <LanguageIcon />,
-            },
-            {
-                link:'https://github.com/amri-coder/siteWeb',
-                icon: <GitHubIcon />,
-            },
-        ]
-    },
-
-    {
-        tag:'Bootstrap',
-        image:'6',
-        image2:'../../assets/images/projet1_1.png',
-        title:'Projet 1',
-        caption:'Site web d\'une agence web',
-        description:'Projet de portfolio',
-        links: [
-            {
-                link:'https://amri-coder.github.io/siteWeb/',
-                icon: <LanguageIcon />,
-            },
-            {
-                link:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/rentCar',
                 icon: <GitHubIcon />,
             },
         ]
@@ -260,18 +235,19 @@ projects: [
 
     {
         tag:'React',
-        image:'7',
-        image2:'../../assets/images/projet1_1.png',
-        title:'Projet 1',
-        caption:'Site web d\'une agence web',
-        description:'Projet de portfolio',
+        image:'6',
+        
+        title:'React Projet 3',
+        caption:'SITE E-COMMERCE',
+        description:'Projet de site e-commerce',
+        desc:'React-bootstrap, CSS/HTML, React router, React, UseEffect, UseState, ..Autres.',
         links: [
             {
-                link:'https://amri-coder.github.io/siteWeb/',
+                link:'https://amri-coder.github.io/la-maison-jungle/',
                 icon: <LanguageIcon />,
             },
             {
-                link:'https://github.com/amri-coder/siteWeb',
+                link:'https://github.com/amri-coder/la-maison-jungle',
                 icon: <GitHubIcon />,
             },
         ]
