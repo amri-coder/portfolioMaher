@@ -83,19 +83,17 @@ experiences:[
 educations: [
     {
         title:'Éducation 1',
-        date:'2021',
-        description: 'Formation en php | Symfony',
-        desc:'Lamanu - Versailles',
+        description: 'Informatique',
+        desc:'Université de Versailles',
     },
     {
         title:'Éducation 2',
-        date:'2020',
         description:'Formation en JavaScript | React',
         desc:'Simplon - Montreuil',
     },
     {
         title:'Éducation 3',
-        description:'Master informatique',
+        description:'Mathématique / informatique',
         desc:'Ufr Sciences de Gafsa',
     },
 
