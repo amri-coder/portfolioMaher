@@ -9,16 +9,16 @@ import StarIcon from '@material-ui/icons/Star';
 const Portfolio = () => {
     const [tabValue, setTabValue]= useState("Tout");
     const [projectDialog, setProjectDialog]=useState(false);
-   
+
     return (
         <Grid container spacing={1} className="section pt_45 pb_45">
             {/* titre */}
             <Grid item className="section_title mb_20">
-                <span></span>
+            
                 <h6 className="section_title_text">Portfolio</h6>
                 
             </Grid>
-         
+        
             {/* Tabs */}
             <Grid item xs={12}>
                 <Tabs value={tabValue} indicatorColor="white" className="customTabs" onChange={(event,newValue)=>setTabValue(newValue)}>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                 
                 {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (
                     <Tab label={tag} value={tag} className={tabValue == tag ? "customTabs_item active" : "customTabs_item"} />
-                     
+                    
                 ))}
                 
                 

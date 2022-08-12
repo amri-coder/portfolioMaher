@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Footer from './components/Footer/Footer';
 import "@fontsource/ia-writer-mono";
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 

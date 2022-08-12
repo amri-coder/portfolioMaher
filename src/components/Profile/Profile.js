@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import imageAmri from '../../assets/images/Capture.png';
+import imageAmri from '../../assets/images/maher.png';
 import CustomTimeline, {CustomTimelineSeparator} from '../Timeline/Timeline';
 import PersonOutlinedOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -26,8 +26,8 @@ function Profile() {
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
-                <Typography className='name'>{resumeData.name}</Typography>
-                <Typography className='title'>{resumeData.title}</Typography>
+                <Typography className='name'></Typography>
+                <Typography className='title'></Typography>
             </div>
             <figure className='profile_image'>
                 <img src={imageAmri} alt="Amri" /> 
@@ -36,7 +36,7 @@ function Profile() {
             <div className='profile_information'>
                 <CustomTimeline icon={<PersonOutlinedOutlinedIcon />} >
                 <CustomTimelineItem title='Nom' text={resumeData.name} />
-                <CustomTimelineItem title='Titre' text={resumeData.title} />
+                <CustomTimelineItem title='Tél' text={resumeData.phone} />
                 <CustomTimelineItem title='Email' text={resumeData.email} />
                 <CustomTimelineItem title='Job' text={resumeData.job} />
 
