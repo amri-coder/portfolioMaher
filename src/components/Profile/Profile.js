@@ -30,7 +30,7 @@ function Profile() {
                 <Typography className='title'>{resumeData.title}</Typography>
             </div>
             <figure className='profile_image'>
-                <img src={imageAmri} alt="Amri" />
+                 <img src={imageAmri} alt="Amri" /> 
             </figure>
 
             <div className='profile_information'>
