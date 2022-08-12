@@ -12,13 +12,13 @@ import './Profile.css';
 
 const CustomTimelineItem = ({title, text, link})=>(
     <TimelineItem>
-   <CustomTimelineSeparator />
-   <TimelineContent className='timeline_content'>
-       
-       {title ? (<Typography className='timelineItem_text'><span>{title}: </span><a href={link} target='_blank'>{text}</a></Typography>) : (
-           <Typography className='timelineItem_text'><span>{title}:</span>{text}</Typography>
-       )}
-   </TimelineContent>
+    <CustomTimelineSeparator />
+    <TimelineContent className='timeline_content'>
+    
+    {title ? (<Typography className='timelineItem_text'><span>{title}: </span><a href={link} target='_blank'>{text}</a></Typography>) : (
+        <Typography className='timelineItem_text'><span>{title}:</span>{text}</Typography>
+    )}
+    </TimelineContent>
     </TimelineItem>
 )
 
@@ -30,7 +30,7 @@ function Profile() {
                 <Typography className='title'>{resumeData.title}</Typography>
             </div>
             <figure className='profile_image'>
-                 <img src={imageAmri} alt="Amri" /> 
+                <img src={imageAmri} alt="Amri" /> 
             </figure>
 
             <div className='profile_information'>
@@ -40,12 +40,12 @@ function Profile() {
                 <CustomTimelineItem title='Email' text={resumeData.email} />
                 <CustomTimelineItem title='Job' text={resumeData.job} />
 
-               
+            
                 </CustomTimeline>
                 <div className='button_container'>
                     <CustomButton text={'Télécharger Cv'} icon={<GetAppIcon />} />
                 </div>
-               
+            
             </div>
         </div>
     )

@@ -82,20 +82,9 @@ experiences:[
 ],
 educations: [
     {
-        title:'Éducation 1',
-        description: 'Informatique',
-        desc:'Université de Versailles',
-    },
-    {
-        title:'Éducation 2',
-        description:'Formation en JavaScript | React',
-        desc:'Simplon - Montreuil',
-    },
-    {
-        title:'Éducation 3',
-        description:'Mathématique / informatique',
-        desc:'Ufr Sciences de Gafsa',
-    },
+        title:'Éducation',
+        description: 'Informatique', 
+    }
 
 ],
 services : [
