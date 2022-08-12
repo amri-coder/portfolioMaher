@@ -1,6 +1,7 @@
 
 /* tabs */
 .customTabs .customTabs_item {
+    font-family: "iA Writer Mono";
     padding: 0px !important;
     min-width: 0px !important;
     margin-right: 20px !important;
@@ -11,6 +12,7 @@
 }
 
 .customTabs .active {
+    font-family: "iA Writer Mono";
     color: var(--main-color) !important;
 }
 /* fin du tabs */
@@ -18,6 +20,7 @@
 
 /* Cards */
 .customCard {
+    font-family: "iA Writer Mono" !important;
     height: 100%;
     max-width: 350px;
     box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
@@ -27,14 +30,17 @@
 }
 
 .customCard .customCard_image{
+    font-family: "iA Writer Mono";
     height: 140px;
 }
 
 .customCard .customCard_title{
+    font-family: "iA Writer Mono";
     font-weight: bold;
 }
 
 .customCard .customCard_caption{
+    font-family: "iA Writer Mono";
     color: gray !important;
     font-weight: 400;
 }
@@ -43,6 +49,7 @@
 /* Dialog */
 /*
 .projectDialog {
+font-family: "iA Writer Mono";
  display: flex;
  align-items: center;
  justify-content: center;
@@ -50,6 +57,7 @@
 }
 */
 .projectDialog .projectDialog_image {
+font-family: "iA Writer Mono";
 max-height: 300px;
 width: 100%;
 object-fit: cover;
@@ -57,26 +65,31 @@ object-position: center center;
 }
 
 .projectDialog .projectDialog_description {
+    font-family: "iA Writer Mono";
     margin-top: 10px !important;
 
 }
 
 .projectDialog .projectDialog_actions {
+    font-family: "iA Writer Mono";
     justify-content: center !important;
     margin-bottom: 10px;
 
 }
 
 .projectDialog .projectDialog_icon {
+    font-family: "iA Writer Mono";
 color: darkslategray;
 margin: 0px 12px;
 cursor: pointer;
 }
 .projectDialog .projectDialog_icon :hover {
+    font-family: "iA Writer Mono";
     color: var(--main-color);
 }
 
 .projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+    font-family: "iA Writer Mono";
     font-size: 30px !important;
 }
 

@@ -1,19 +1,26 @@
+body {
+    font-family: "iA Writer Mono";
+}
 .profile {
+    font-family: "iA Writer Mono";
     background-color: white;
     border-radius: 6px;
     width: 100%;
     display: inline-block;
 }
 .profile_name {
+    font-family: "iA Writer Mono";
     line-height: 18px;
     padding: 20px;
 }
 .profile_name .name {
+    font-family: "iA Writer Mono";
     text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
 }
 .profile_name .title {
+    font-family: "iA Writer Mono";
     font-size: 13px;
     color: #777;
 }
@@ -28,27 +35,33 @@
 
 /* Information */
 .profile_information {
+    font-family: "iA Writer Mono";
     top:0;
     left: 0;
     margin: -40px 10px 30px;
 }
 .profile_information .timeline .timeline_content {
+    font-family: "iA Writer Mono";
     margin-top: 2px;
     margin-bottom: 12px;
 }
 .timelineItem_text {
+    font-family: "iA Writer Mono";
     font-size: 13.5px !important;
     color:#787878 !important;
     font-weight: 400 !important;
 }
 .timelineItem_text > a {
+    font-family: "iA Writer Mono";
     color:#787878 !important;
     text-decoration: none;
 }
 .timelineItem_text > span {
+    font-family: "iA Writer Mono";
     color:black;
 }
 .profile .button_container {
+    font-family: "iA Writer Mono";
     width: 100%;
     display: flex !important;
     justify-content: center;
