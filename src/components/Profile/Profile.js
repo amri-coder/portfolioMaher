@@ -15,7 +15,7 @@ const CustomTimelineItem = ({title, text, link})=>(
     <CustomTimelineSeparator />
     <TimelineContent className='timeline_content'>
     
-    {title ? (<Typography className='timelineItem_text'><span>{title}: </span><a href={link} target='_blank'>{text}</a></Typography>) : (
+    {title ? (<Typography className='timelineItem_text'><span>{title}: </span><a href={link} target='_blank' rel="noreferrer">{text}</a></Typography>) : (
         <Typography className='timelineItem_text'><span>{title}:</span>{text}</Typography>
     )}
     </TimelineContent>

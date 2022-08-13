@@ -22,15 +22,15 @@ const Header = (props) => {
                     <Nav className='header_left'>
                         {/*lien resume */}
 
-                        <Nav.Link as={NavLink} to="/" className={pathName == "/" ? "header_link_active" : "header_link"}>Resume</Nav.Link>
+                        <Nav.Link as={NavLink} to="/" className={pathName === "/" ? "header_link_active" : "header_link"}>Resume</Nav.Link>
 
                         {/*lien portfolio */}
-                        <Nav.Link as={NavLink} to="/portfolio" className={pathName == "/portfolio" ? "header_link_active" : "header_link"}>Portfolio</Nav.Link>
+                        <Nav.Link as={NavLink} to="/portfolio" className={pathName === "/portfolio" ? "header_link_active" : "header_link"}>Portfolio</Nav.Link>
                     </Nav>
                     
                     <div className='header_right'>
                         {Object.keys(resumeData.socials).map(key =>(
-                            <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
+                            <a href={resumeData.socials[key].link} target='_blank' rel="noreferrer">{resumeData.socials[key].icon}</a>
                         ))}
 
                             <CustomButton text={'Engagez moi'} icon={<Telegram />} />

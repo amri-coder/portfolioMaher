@@ -1,5 +1,6 @@
 import React from 'react';
 import './resumeData.css';
+
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -9,10 +10,9 @@ import LanguageIcon from '@material-ui/icons/Language';
 import BuildOutlinedIcon from '@material-ui/icons/BuildOutlined';
 
 
-export default {
+const resumeData = {
     name:'Amri Maher',
     title :'Développeur Web',
-   
     email: 'amri.maher@yahoo.com',
     job:'Freelance',
     adress:'Rueil Malmaison, 92, IDF, Fr',
@@ -130,9 +130,10 @@ skills : [
 ],
 projects: [
     {
+    
         tag:'Autres',
-        image:'1',
-        image2:'../../assets/images/projet1_1.png',
+        image:'image1',
+        image2:'../assets/projet1.png',
         title:'Projet 1',
         caption:'Site web portfolio',
         description:'SITE WEB PERSONNEL RESPONSIVE',
@@ -151,8 +152,9 @@ projects: [
 
 
     {
+
         tag:'React',
-        image:'2',
+        image:'../assets/images/projet2.png',
         title:'React Projet 1',
         caption:'Site web d\'une agence web',
         description:'Projet de site d\'agence',
@@ -170,9 +172,10 @@ projects: [
     },
 
     {
+   
         tag:'React',
         image:'3',
-        image2:'../../assets/images/projet3_1.png',
+        image2:'../assets/images/projet3_1.png',
         title:'React Projet 2',
         caption:'Site web d\'un portfolio',
         description:'Projet de portfolio',
@@ -190,6 +193,7 @@ projects: [
     },
 
     {
+    
         tag:'Autres',
         image:'4',
         title:'Projet 2',
@@ -206,6 +210,7 @@ projects: [
     },
 
     {
+        
         tag:'Symfony',
         image:'5',
         title:'Symfony Projet 1',
@@ -221,11 +226,12 @@ projects: [
     },
 
     {
+        id:'6',
         tag:'React',
         image:'6',
         
         title:'React Projet 3',
-        caption:'SITE E-COMMERCE',
+        caption:'Site E-commerce',
         description:'Projet de site e-commerce',
         desc:'React-bootstrap, CSS/HTML, React router, React, UseEffect, UseState, ..Autres.',
         links: [
@@ -242,3 +248,5 @@ projects: [
 ]
 
 };
+
+export default resumeData;
