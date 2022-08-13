@@ -1,7 +1,6 @@
 {
   "name": "portfoliomaher",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://amri-coder.github.io/portfoliomaher",
   "dependencies": {
     "@fontsource/ia-writer-mono": "^4.5.3",
